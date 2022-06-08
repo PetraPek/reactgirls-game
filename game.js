@@ -40,17 +40,7 @@ window.addEventListener("load" , function () {
         titleElement.innerHTML = "Try again, I'm thinking of a bigger number"
     }
 
-
-
-
-    
 });
-
-
-
-
-
-
 
 
 })
