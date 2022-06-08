@@ -32,12 +32,12 @@ window.addEventListener("load" , function () {
     guessCounter = guessCounter + 1
 
     if (userGuess === randomNumber) {
-        titleElement.innerHTML = "Uhodl jsi na " + guessCounter + " pokusů"
+        titleElement.innerHTML = "You guessed it on " + guessCounter + " tries"
         document.body.className = "winner" //neni v HTML ale je tady napsany
     }   else if (userGuess > randomNumber) {
-        titleElement.innerHTML = "snaž se, myslím na měnší číslo"
+        titleElement.innerHTML = "Try again, I'm thinking of a smaller number"
     }   else if (userGuess < randomNumber) {
-        titleElement.innerHTML = "to dáš, ale bohužel myslím na větší číslo"
+        titleElement.innerHTML = "Try again, I'm thinking of a bigger number"
     }
 
 
